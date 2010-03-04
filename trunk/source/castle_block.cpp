@@ -142,7 +142,7 @@ void castle_block::update()
         body->GetPosition().x < 0.0f
         )
     {
-        status == DEAD;
+        status = DEAD;
         return;
     }
 
