@@ -96,7 +96,7 @@ void castle_rocks::update()
         body->GetPosition().x < 0.0f
         )
     {
-        status == DEAD;
+        status = DEAD;
         return;
     }
 
